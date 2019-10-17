@@ -62,15 +62,17 @@
 	}
 
 }
-
 body{
-	margin: 0px;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
 }
 #core{
 	flex-wrap: wrap;
 	background: url(images/bg-pattern-desktop.svg);
 	display: flex;
 	background-repeat: no-repeat;
+	height: 100%;
 }
 #sub1{
 	width: 49%;
@@ -81,11 +83,13 @@ body{
 	width: 44%;
     background-repeat: no-repeat;
 }
-img{
-	object-fit: contain;
-	height: 100%;
-	width: 100%;
-	background-size: contain; 
+#image{
+	background-image: url(images/hero-desktop.jpg);
+    background-size: contain;
+    height: 100%;
+    background-position: right;
+    width: 100%;
+    background-repeat: no-repeat;
 }
 #title_text{
 	background: url(images/logo.svg);
